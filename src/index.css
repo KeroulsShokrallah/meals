@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+@theme {
+  --color-orange-primary: #f29724;
+  --color-green-primary: #059669;
+}
+
+.active {
+  color: white;
+  background-color: #f29724;
+}
+
+body {
+  font-family: cursive;
+
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-style: normal;
+}
+.pacifico-regular {
+  font-family: "Pacifico", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.item:hover{
+  transform: scale(1.02);
+  transition: all .3s;
+}
+
+.item:hover .imgR{
+  transform: rotate(360)
+
+
+}
