@@ -12,7 +12,7 @@ export default function Sidebar() {
           <li className="my-2 text-center hover:scale-105 duration-1000">
             <NavLink
               className="block border-[1px] rounded-2xl p-2 border-gray-200"
-              to={"/"}
+              to={"/meals"}
             >
               <i className="fa-solid fa-utensils me-3"></i> Meals
             </NavLink>

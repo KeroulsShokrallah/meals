@@ -13,7 +13,7 @@ function App() {
 let x = createBrowserRouter([
 {
   path:"/",element:<Layout/>,children:[
-    {index:true, element : <Meals/>},
+    {path:"/meals", element : <Meals/>},
     {path:"area", element : <Area/>},
     {path:"inredients", element : <Inredients/>},
     {path:"mealdetails/:id", element : <Mealdetails/>},
